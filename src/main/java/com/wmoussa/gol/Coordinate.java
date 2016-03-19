@@ -18,6 +18,11 @@ public class Coordinate {
         return new Coordinate(random.nextInt(), random.nextInt());
     }
 
+    public static Coordinate random10() {
+        Random random = new Random();
+        return new Coordinate(random.nextInt(10 - 1), random.nextInt(10 - 1));
+    }
+
     public Set<Coordinate> getSurroundingCoordinates() {
         Set<Coordinate> temp = new HashSet<>();
         temp.add(new Coordinate(this.x - 1, y));

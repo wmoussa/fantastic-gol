@@ -26,30 +26,4 @@ public class GolTestHelper {
         coordinate.getSurroundingCoordinates().stream().limit(3).forEach(space::add);
         return coordinate;
     }
-
-    protected static void applyTwoGenerationSurvivorTopology(Space space) {
-        Coordinate coordinate = new Coordinate(0, 0);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(-1, 0);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(-2, 0);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(1, 0);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(2, 0);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(0, 1);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(-1, -1);
-        space.add(coordinate);
-
-        coordinate = new Coordinate(1, 1);
-        space.add(coordinate);
-    }
 }

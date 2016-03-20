@@ -3,7 +3,6 @@ package com.wmoussa.gol;
 import org.junit.Test;
 
 import static com.wmoussa.gol.GolTestHelper.addFirstTickSurvivor;
-import static com.wmoussa.gol.GolTestHelper.applyTwoGenerationSurvivorTopology;
 import static com.wmoussa.gol.GolTestHelper.createGenesisEnvironment;
 import static com.wmoussa.gol.GolTestHelper.createHermit;
 import static com.wmoussa.gol.GolTestHelper.createOverpopulatedCellArea;
